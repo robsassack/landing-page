@@ -142,7 +142,13 @@ html, body {
 }
 
 .quote-section {
+    display: flex;
+    justify-content: center;
     background-color: #e5e7eb;
+}
+
+.quote-section .container {
+    padding: 100px 200px;
 }
 
 .quote-text {
@@ -155,6 +161,7 @@ html, body {
     font-size: 24px;
     color: #1f2937;
     font-weight: 700;
+    text-align: right;
 }
 
 .signup-container {
